@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DatabaseHandler</id>
+        <version>$version$</version>
+        <title>DatabaseHandler-$version$</title>
+		<description>Manager SQL connection</description>
+        <authors>$author$</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectUrl></projectUrl>
+        <copyright>Copyright © 2021</copyright>
+        <dependencies>
+            <dependency id="Dapper" version="2.0.78" />
+            <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="5.0.0" />
+            <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="5.0.0" />
+            <dependency id="Oracle.ManagedDataAccess.Core" version="3.21.1" />
+            <dependency id="System.Data.SqlClient" version="4.8.2" />
+        </dependencies>
+    </metadata>
+    <files>
+		<file src="bin\release\netcoreapp3.1\*.dll" target="lib\netcoreapp3.1" />
+    </files>
+</package>
